@@ -9,7 +9,4 @@ class Octoprime(Tires):
         for i in self.sensor_array:
             result += i
         
-        if result >= 3:
-            return True
-        else:
-            return False
+        return result >= 3
