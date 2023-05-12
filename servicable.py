@@ -1,9 +1,12 @@
 from abc import ABC, abstractmethod
 
-class Serviceable(ABC):
-    def __init__(self) -> None:
-        super().__init__()
+#the highest level abstract class
 
+#used by car but can also be used by other forms of transportation
+
+
+class Serviceable(ABC):
+    
     @abstractmethod
     def needs_service(self):
         pass
